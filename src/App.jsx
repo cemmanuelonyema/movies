@@ -1,5 +1,10 @@
-import React from "react";
+import React, { Fragment } from "react";
+import { Login } from "./pages/login/Login";
 
 export const App = () => {
-  return <div>App</div>;
+  return (
+    <Fragment>
+      <Login />
+    </Fragment>
+  );
 };
