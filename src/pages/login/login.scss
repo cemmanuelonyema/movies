@@ -1,31 +1,28 @@
 @import "../../styles/abstract/mixins";
 
-.section__login {
+.login {
   height: 100vh;
-  background: url(/img/login-background.jpg);
-  //   linear redial grendient
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: url(/img/login-background.jpg) center/cover no-repeat;
   position: relative;
 
-  .container {
-    max-width: 100rem;
-    margin: 0 auto;
-    padding: 3rem;
-  }
+  &__nav {
+    position: relative;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.8),
+      transparent
+    );
 
-  nav {
     .logo-con {
       height: 4rem;
     }
 
-    .container {
+    &--container {
       display: flex;
       justify-content: space-between;
-      max-width: 100rem;
       margin: 0 auto;
     }
+
     a {
       border: 2px solid var(--light);
       padding: 1rem 3rem;
@@ -52,10 +49,6 @@
       text-align: center;
       padding: 2rem;
     }
-  }
-
-  .img-con {
-    // width: 4rem;
   }
 
   a {

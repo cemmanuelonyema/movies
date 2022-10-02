@@ -5,9 +5,9 @@ import logo from "/svg/logo.svg";
 
 export const Login = () => {
   return (
-    <section className="section__login">
-      <nav>
-        <div className="container">
+    <section className="login">
+      <nav className="login__nav">
+        <div className="login__nav--container container">
           <div className="logo-con">
             <img src={logo} alt="logo" />
           </div>
