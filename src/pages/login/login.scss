@@ -23,9 +23,10 @@
       margin: 0 auto;
     }
 
-    a {
+    .btn {
       border: 2px solid var(--light);
       padding: 1rem 3rem;
+      background-color: transparent;
     }
   }
   .content {
@@ -44,14 +45,14 @@
     flex-direction: column;
     gap: 1rem;
 
-    a {
+    .btn {
       background-color: var(--blue);
       text-align: center;
       padding: 2rem;
     }
   }
 
-  a {
+  .btn {
     color: var(--light);
     font-weight: bold;
     display: block;
