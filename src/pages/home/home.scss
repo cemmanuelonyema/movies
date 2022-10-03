@@ -1,0 +1,14 @@
+.home {
+  min-height: 100vh;
+  background: url(/img/home-background.png) center/cover no-repeat fixed;
+  position: relative;
+
+  //   &::before {
+  //     content: "";
+  //     height: 100%;
+  //     width: 100%;
+  //     z-index: -1;
+  //     position: absolute;
+  //     background: url(/img/home-background.png) center/cover no-repeat fixed;
+  //   }
+}

@@ -1,0 +1,45 @@
+@import "../../../../styles/abstract/mixins";
+
+.recommended {
+  &__content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+    padding: 3rem 0;
+
+    @include respond(tab-max1000) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    @include respond(tab-max800) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include respond(phone-max600) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__box {
+    // width: 20rem;
+    border: 2px solid rgba(249, 249, 249, 0.2);
+    border-radius: 1rem;
+    cursor: pointer;
+    // box-shadow: 0px, 2.5rem, 3rem, -1rem, rgb(0 0 0/70%), 0px, 1.5rem, 1rem,
+    //   -1rem rgb(0 0 0/75%);
+    transition: all 0.4s ease-in-out;
+
+    &:hover {
+      transform: scale(1.05);
+      border-color: rgba(249, 249, 249, 0.8);
+    }
+  }
+
+  &__link {
+  }
+
+  &__img {
+    object-fit: cover;
+    transition: all 0.4s ease-in-out;
+  }
+}
