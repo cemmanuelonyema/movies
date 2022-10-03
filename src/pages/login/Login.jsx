@@ -8,15 +8,6 @@ import logo from "/svg/logo.svg";
 export const Login = () => {
   return (
     <section className="login">
-      <nav className="login__nav">
-        <div className="login__nav--container container">
-          <div className="logo-con">
-            <img src={logo} alt="logo" />
-          </div>
-          <button className="btn">Login</button>
-        </div>
-      </nav>
-
       <div className="container content">
         <div className="hero-img">
           <img src={heroLogos} alt="logo-image" />
