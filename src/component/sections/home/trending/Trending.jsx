@@ -8,37 +8,37 @@ export const Trending = () => {
       <h4 className="trending__heading">Trending</h4>
       <div className="trending__content">
         <div className="trending__box">
-          <Link className="trending__link">
+          <Link className="box__link">
             <img
               src="/img/viewers-marvel.png"
-              className="trending__img"
+              className="box__img"
               alt="thumbnail"
             />
           </Link>
         </div>
         <div className="trending__box">
-          <Link className="trending__link">
+          <Link className="box__link">
             <img
               src="/img/viewers-marvel.png"
-              className="trending__img"
+              className="box__img"
               alt="thumbnail"
             />
           </Link>
         </div>
         <div className="trending__box">
-          <Link className="trending__link">
+          <Link className="box__link">
             <img
               src="/img/viewers-marvel.png"
-              className="trending__img"
+              className="box__img"
               alt="thumbnail"
             />
           </Link>
         </div>
         <div className="trending__box">
-          <Link className="trending__link">
+          <Link className="box__link">
             <img
               src="/img/viewers-marvel.png"
-              className="trending__img"
+              className="box__img"
               alt="thumbnail"
             />
           </Link>

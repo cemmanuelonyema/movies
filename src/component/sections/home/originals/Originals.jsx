@@ -8,37 +8,37 @@ export const Originals = () => {
       <h4 className="originals__heading">Originals</h4>
       <div className="originals__content">
         <div className="originals__box">
-          <Link className="originals__link">
+          <Link className="box__link">
             <img
               src="/img/viewers-marvel.png"
-              className="originals__img"
+              className="box__img"
               alt="thumbnail"
             />
           </Link>
         </div>
         <div className="originals__box">
-          <Link className="originals__link">
+          <Link className="box__link">
             <img
               src="/img/viewers-marvel.png"
-              className="originals__img"
+              className="box__img"
               alt="thumbnail"
             />
           </Link>
         </div>
         <div className="originals__box">
-          <Link className="originals__link">
+          <Link className="box__link">
             <img
               src="/img/viewers-marvel.png"
-              className="originals__img"
+              className="box__img"
               alt="thumbnail"
             />
           </Link>
         </div>
         <div className="originals__box">
-          <Link className="originals__link">
+          <Link className="box__link">
             <img
               src="/img/viewers-marvel.png"
-              className="originals__img"
+              className="box__img"
               alt="thumbnail"
             />
           </Link>
