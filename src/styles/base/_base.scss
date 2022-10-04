@@ -1,5 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;800&display=swap");
 @import "../abstract/mixins";
-
 *,
 *::after,
 *::before {
@@ -24,6 +24,7 @@ html {
 
 body {
   background-color: var(--dark);
+  font-family: "Nunito Sans", sans-serif;
   color: var(--light);
 }
 
@@ -38,4 +39,11 @@ ul {
 img {
   width: 100%;
   height: 100%;
+}
+
+
+.container{
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 3rem;
 }

@@ -1,9 +1,9 @@
-import { Outlet } from "react-router";
+import { Outlet } from "react-router-dom";
 
 export const Layout = () => {
   return (
-    <Fragment>
+    <main>
       <Outlet />
-    </Fragment>
+    </main>
   );
 };

@@ -3,7 +3,7 @@
 /*
 
 0-600px:  phone
-600-900px: Tablet port
+600-1000px: Tablet port
 900-1200px: tablet landscape
 1200-1800 = Normal styles
 1800 *  Big screens
@@ -23,37 +23,38 @@ $breakpoint argument
 - tab-land
 - big-desktop
 
-1em = 16px
+1em = 16px 
+calc = breakpoint/16px
 */
 
 @mixin respond($breakpoint) {
-  @if $breakpoint== phone {
+  @if $breakpoint== phone-max600 {
     @media (max-width: 37.5em) {
-      //600px
       @content;
     }
   }
-  @if $breakpoint== minPhone {
+  @if $breakpoint== phone-min600 {
     @media (min-width: 37.5em) {
-      //600px
       @content;
     }
   }
-  @if $breakpoint== tab-port {
-    @media (max-width: 56.25em) {
-      //900px
+  @if $breakpoint== tab-max800 {
+    @media (max-width: 50em) {
       @content;
     }
   }
-  @if $breakpoint== tab-land {
+  @if $breakpoint== tab-max1000 {
+    @media (max-width: 62.5em) {
+      @content;
+    }
+  }
+  @if $breakpoint== tab-max1200 {
     @media (max-width: 75em) {
-      //600px
       @content;
     }
   }
-  @if $breakpoint== big-desktop {
-    @media (min-width: 112.5em) {
-      //600px
+  @if $breakpoint== desktop-min1200 {
+    @media (min-width: 75em) {
       @content;
     }
   }
