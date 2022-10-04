@@ -1,9 +1,8 @@
 import React from "react";
-// import { signInWithGoogle } from "../../firebase/firebase";
+import { Link } from "react-router-dom";
 
 import "./login.scss";
 import heroLogos from "/svg/cta-logo-one.svg";
-import logo from "/svg/logo.svg";
 
 export const Login = () => {
   return (
@@ -13,9 +12,9 @@ export const Login = () => {
           <img src={heroLogos} alt="logo-image" />
         </div>
 
-        {/* <button className="btn" onClick={() => signInWithGoogle()}>
-          Get Started
-        </button> */}
+        <Link to="/home">
+          <button className="btn">Get Started</button>
+        </Link>
         <p>
           Get Premier access to raya and the last Dragon for an additional fee
           with a Disney+ subscription.{" "}

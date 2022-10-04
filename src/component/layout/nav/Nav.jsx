@@ -46,7 +46,7 @@ export const Nav = () => {
       )}
 
       <span className="nav__user">
-        <FaUser className="nav__user__link" />
+        <FaUser className="nav__user__link" /> <span>Login</span>
       </span>
     </nav>
   );
