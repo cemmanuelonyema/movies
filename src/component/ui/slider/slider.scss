@@ -1,0 +1,29 @@
+.slider {
+  //   overflow: hidden;
+  margin-bottom: 6rem;
+  .slick-arrow {
+    opacity: 0;
+  }
+
+  .slick-dots button {
+    &::before {
+      font-size: 1rem;
+      color: var(--light-shade1);
+    }
+  }
+
+  .slick-dots li.slick-active button:before {
+    color: var(--white);
+  }
+
+  .slick-list {
+    overflow: initial;
+  }
+
+  &__box {
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    padding: 0 1rem;
+  }
+}

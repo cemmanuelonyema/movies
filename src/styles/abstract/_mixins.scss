@@ -62,10 +62,49 @@ calc = breakpoint/16px
 
 //mixins for  reusable components
 
-@mixin button {
+@mixin btn-core {
   outline: none;
   border: transparent;
   cursor: pointer;
   text-transform: capitalize;
-  padding: 15px 30px;
+  padding: 1.5rem 3rem;
+}
+
+@mixin box {
+  border: 2px solid var(--dark-shade1);
+  border-radius: 1rem;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.4s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+    border-color: var(--light-shade1);
+  }
+
+  .box__link {
+  }
+
+  .box__img {
+  }
+}
+
+@mixin content($column) {
+  display: grid;
+  grid-template-columns: repeat($column, 1fr);
+  gap: 3rem;
+  padding: 3rem 0;
+
+  @include respond(tab-max1000) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @include respond(tab-max800) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include respond(phone-max600) {
+    grid-template-columns: 1fr;
+  }
 }

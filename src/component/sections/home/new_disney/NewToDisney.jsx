@@ -8,37 +8,37 @@ export const NewToDisney = () => {
       <h4 className="disney__heading">New to Disney</h4>
       <div className="disney__content">
         <div className="disney__box">
-          <Link className="disney__link">
+          <Link className="box__link">
             <img
               src="/img/viewers-marvel.png"
-              className="disney__img"
+              className="box__img"
               alt="thumbnail"
             />
           </Link>
         </div>
         <div className="disney__box">
-          <Link className="disney__link">
+          <Link className="box__link">
             <img
               src="/img/viewers-marvel.png"
-              className="disney__img"
+              className="box__img"
               alt="thumbnail"
             />
           </Link>
         </div>
         <div className="disney__box">
-          <Link className="disney__link">
+          <Link className="box__link">
             <img
               src="/img/viewers-marvel.png"
-              className="disney__img"
+              className="box__img"
               alt="thumbnail"
             />
           </Link>
         </div>
         <div className="disney__box">
-          <Link className="disney__link">
+          <Link className="box__link">
             <img
               src="/img/viewers-marvel.png"
-              className="disney__img"
+              className="box__img"
               alt="thumbnail"
             />
           </Link>
